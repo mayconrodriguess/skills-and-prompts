@@ -39,7 +39,7 @@ Repositório:
 
 - [Prompt-Engineering-Guide](https://github.com/mayconrodriguess/Prompt-Engineering-Guide)
 
-### skills-and-prompts
+### skills
 
 Foco em:
 
