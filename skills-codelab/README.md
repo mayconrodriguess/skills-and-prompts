@@ -1,4 +1,4 @@
-# skills-codelab
+# skill-codelab
 
 `skills-codelab` é a célula experimental de desenvolvimento e testes da aplicação.
 
