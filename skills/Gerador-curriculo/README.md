@@ -42,23 +42,6 @@ Transforma dados profissionais em currículos **estratégicos e visualmente refi
 
 ---
 
-## 📁 Estrutura do Projeto
-
-```
-gerador-curriculo/
-├── SKILL.md                          # Instruções principais da skill
-├── README.md                         # Este arquivo
-├── evals/
-│   └── evals.json                    # Casos de teste para validação
-├── references/
-│   ├── ats_keywords.md               # Banco de palavras-chave por área profissional
-│   └── docx_guide.md                 # Guia de formatação Word e PDF
-└── scripts/
-    └── gerar_docx.py                 # Script Python para gerar .docx profissional
-```
-
----
-
 ## 🚀 Como Usar
 
 ### Pré-requisito
@@ -153,48 +136,6 @@ python scripts/gerar_docx.py \
   --saida meu_curriculo.docx \
   --estilo corporativo
 ```
-
-### Formato do JSON de entrada
-
-```json
-{
-  "nome": "Maria Silva",
-  "telefone": "(11) 99999-0000",
-  "email": "maria@email.com",
-  "cidade": "São Paulo, SP",
-  "linkedin": "linkedin.com/in/mariasilva",
-  "resumo": "Profissional com 8 anos de experiência em...",
-  "competencias": ["Python", "AWS", "Docker", "Scrum", "CI/CD"],
-  "experiencias": [
-    {
-      "cargo": "Engenheira de Software Sênior",
-      "empresa": "TechCorp",
-      "periodo": "jan/2021 – Atual",
-      "atividades": [
-        "Liderei equipe de 6 devs na migração de monolito para microsserviços",
-        "Reduzi tempo de deploy em 70% implementando pipeline CI/CD"
-      ]
-    }
-  ],
-  "formacao": [
-    {
-      "curso": "Ciência da Computação",
-      "instituicao": "USP",
-      "ano": "2016"
-    }
-  ],
-  "certificacoes": [
-    {
-      "nome": "AWS Solutions Architect",
-      "instituicao": "Amazon",
-      "ano": "2023"
-    }
-  ],
-  "idiomas": ["Português — Nativo", "Inglês — Avançado (C1)"]
-}
-```
-
----
 
 ## 🔑 Banco de Palavras-Chave ATS
 
