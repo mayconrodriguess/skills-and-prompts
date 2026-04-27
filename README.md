@@ -1,14 +1,24 @@
-# Skills and Squads
+# Skills, Squads and Prompts
 
 Repositorio para hospedar duas frentes principais de trabalho com IA:
 
 - `skills` reutilizaveis para tarefas especializadas
 - `squads` estruturadas para execucao colaborativa com agentes
+- `prompts` documentados e prontos para uso em ferramentas, automações e agentes
 
 ## Estrutura do repositorio
 
 - [skills/](./skills) - biblioteca de skills reutilizaveis
 - [Squad/](./Squad) - area dedicada a squads e estruturas de execucao multiagente
+- [Promts/](./Prompts) - area dedicada a squads e estruturas de execucao multiagente
+
+```
+skills-squads-and-prompts/
+|
++-- skills/          - biblioteca de skills reutilizáveis
++-- Squad/           - área dedicada a squads e estruturas de execução multiagente
++-- Prompts/         - prompts documentados, procedimentos executáveis e guias técnicos
+
 
 ## Skills
 
@@ -27,28 +37,41 @@ Squad publicada atualmente:
 
 - [Squad/Squad_Dev/](./Squad/Squad_Dev) - estrutura de squad de desenvolvimento com agentes especializados, memoria de projeto e materiais de operacao
 
-Arquivos de entrada da `Squad_Dev`:
+## Prompts
 
-- [Squad/Squad_Dev/README.md](./Squad/Squad_Dev/README.md)
-- [Squad/Squad_Dev/HOW_TO_USE_WITH_DIFFERENT_AIs.md](./Squad/Squad_Dev/HOW_TO_USE_WITH_DIFFERENT_AIs.md)
-- [Squad/Squad_Dev/API_KEYS_SETUP.md](./Squad/Squad_Dev/API_KEYS_SETUP.md)
+A pasta [Prompts/](https://github.com/mayconrodriguess/skills-squads-and-prompts/tree/main/Prompts) reúne prompts documentados, procedimentos executáveis e guias técnicos prontos para uso direto ou adaptação.
 
-## Posicionamento do repositorio
+Cada subpasta tem seu próprio README explicando o contexto e como usar.
 
-Este repositorio foi organizado para servir como base publica de:
+### Subpastas
 
-- componentes reutilizaveis para IA
-- organizacao de agentes por funcao
-- estruturas de squads operacionais
-- modelos de execucao para desenvolvimento, documentacao e automacao
+**[Prompts/Obsidian/](https://github.com/mayconrodriguess/skills-squads-and-prompts/tree/main/Prompts/Obsidian)**
+Procedimento completo para instalar e configurar o Obsidian com MCP. Funciona como passo a passo manual ou como documento executável por uma IA agente com acesso a terminal. Cobre plugin Local REST API, servidor MCP, configuração para Claude Desktop, Claude Code, Cursor e VS Code, startup automático e diagnóstico de erros.
 
-## Relacao com Prompt-Engineering-Guide
+**[Prompts/Squad/](https://github.com/mayconrodriguess/skills-squads-and-prompts/tree/main/Prompts/Squad)**
+Prompts e guias relacionados à criação, operação e uso de squads multiagente. Templates de instruções de agente, estruturas de memória e fluxos de coordenação.
 
-O repositorio [Prompt-Engineering-Guide](https://github.com/mayconrodriguess/Prompt-Engineering-Guide) continua focado em conceitos, tecnicas e organizacao de conhecimento sobre prompting.
+**[Prompts/Skill/](https://github.com/mayconrodriguess/skills-squads-and-prompts/tree/main/Prompts/Skill)**
+Prompts e guias para criação e uso de skills para Claude e outros agentes. Inclui templates de SKILL.md, padrões de descrição e exemplos de skills técnicas.
 
-Ja este repositorio fica focado em material aplicavel no dia a dia:
+## Posicionamento do repositório
 
-- skills
-- squads
-- estruturas operacionais
-- templates de execucao
+Este repositório foi organizado para servir como base pública de:
+
+- Componentes reutilizáveis para IA
+- Organização de agentes por função
+- Estruturas de squads operacionais
+- Modelos de execução para desenvolvimento, documentação e automação
+- Prompts documentados e procedimentos executáveis
+
+## Relação com outros repositórios
+
+O repositório **[Prompt-Engineering-Guide](https://github.com/mayconrodriguess/Prompt-Engineering-Guide)** continua focado em conceitos, técnicas e organização de conhecimento sobre prompting.
+
+Já este repositório fica focado em material aplicável no dia a dia:
+
+- Skills
+- Squads
+- Prompts prontos para uso
+- Estruturas operacionais
+- Templates de execuçã
