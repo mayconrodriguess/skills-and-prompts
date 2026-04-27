@@ -10,15 +10,7 @@ Repositorio para hospedar duas frentes principais de trabalho com IA:
 
 - [skills/](./skills) - biblioteca de skills reutilizaveis
 - [Squad/](./Squad) - area dedicada a squads e estruturas de execucao multiagente
-- [Promts/](./Prompts) - area dedicada a squads e estruturas de execucao multiagente
-
-```
-skills-squads-and-prompts/
-|
-+-- skills/          - biblioteca de skills reutilizáveis
-+-- Squad/           - área dedicada a squads e estruturas de execução multiagente
-+-- Prompts/         - prompts documentados, procedimentos executáveis e guias técnicos
-```
+- [Promts/](./Prompts) - prompts documentados, procedimentos executáveis e guias técnicos
 
 ## Skills
 
